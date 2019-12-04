@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="JoJofag - O seu JoJosite">
+		<meta name="keywords" content="jojo's bizarre adventure, site, jojo, anime">
+		<meta name="author" content="Marcos Túlio Barbosa Abreu">
+    <title>JoJofag - O seu Jojosite</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="icon" type="imagem/png" href="imagens/img4.png" />
+    <script src="https://kit.fontawesome.com/2856d5ee4b.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <a name="home">s</a>
+    <div id="menu">
+      <img src="imagens/img3.png" id="logo">
+      <span class="pa1">JoJ</span>
+      <img src="imagens/img4.png" class="letra">
+      <span class="rest">fag</span>
+      <span class="cont">O seu JoJosite</span>
+      <div id="link">
+        <ul>
+          <li><a class="bon" href="index.html"><i class="fab fa-fort-awesome-alt" aria-hidden="true"></i>Home</a></li>
+          <li><a class="bon" href="imagem.html"><i class="far fa-images" aria-hidden="true"></i>Imagens</a></li>
+          <li><a class="bon" href="download.html"><i class="fas fa-cloud-download-alt" aria-hidden="true"></i>Downloads</a></li>
+          <li><a class="bon" href="#"><i class="fab fa-youtube"></i>Aberturas<img src="imagens/seta.png" height="10px"/></a>
+            <ul>
+              <li><a href="season1&2.html">Season 1 & 2</a></li>
+              <li><a href="season3.html">Season 3</a></li>
+              <li><a href="season4.html">Season 4</a></li>
+              <li><a href="season5.html">Season 5</a></li>
+            </ul>
+          </li>
+          <li><a class="bon" href="desenvolvedor.html"><i class="fas fa-dollar-sign"></i>Desenvolvedor|Doações|Contato</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="adm">
+      <center><img id="fotinha" src="imagens/lindoso.jpeg" width="30%" height="35%"/></center>
+      <p class="eu">Meu nome é Marcos Túlio Barbosa Abreu, tenho 15 anos e estudo no IFNMG - Campus Avançado Janaúba. Estou no curso Técnico em Informática para Internet Integrado ao Ensino Médio, motivo pelo qual fiz esse site. Amo Física, sou fã de animes, filmes, jogos, e louco o bastante pra fazer um site só sobre JoJo's Bizarre Adventure. Mas como dizem, o mundo é dos loucos. Meu melhor amigo Richard Grady é loucasso igual a mim, por esse motivo tá aqui do meu lado me obrigando a escrever sobre ele. Enfim, se você gosta de JoJo's Bizarre Adventure, ou de mim, ou gostou do meu trabalho, faça sugestões e contribua doando e divulgando o site.<center class="centroagr">Obrigado pela sua visita! Nos vemos numa próxima!</center></p>
+    </div>
+    <div id="donations">
+    <form method="get">
+      <h1>Doações</h1>
+      <fieldset id="form">
+      <fieldset id="form">
+        <legend>Informações Básicas</legend>
+        <p>
+          <label> Bandeira do Cartão: </label>
+          <select name="cartões" id="cartões">
+          <option value="VISA">VISA(1x)</option>
+          <option value="MASTER">Mastercard(1x)</option>
+          <option value="BB">Banco do Brasil(1x)</option>
+          <option value="VISA">VISA(1x)</option>
+          </select>
+        </p>
+        <p>
+          <label for="data"> Validade: </label>
+          <input type="date" id="data" required>
+        </p>
+        <p>
+          <label for="código-segurança"> Código de Segurança: </label>
+          <input type="number" id="código-segurança" required>
+        </p>
+        <p>
+          <label for="name"> Nome no Cartão: </label>
+          <input type="name" id="name">
+        </p>
+        <p>
+           <label> Valor da doação: </label>
+          <select name="valor" id="valor" required>
+              <option value="10">R$ 10</option>
+              <option value="20">R$ 20</option>
+              <option value="50">R$ 50</option>
+              <option value="100">R$ 100</option>
+              </select>
+        </p>
+      </fieldset>
+      <span clas=="send">
+        <input type="submit" name="enviar" value="enviar">
+      </span>
+      <span class="cancel">
+          <input type="reset" name="cancelar" value="limpar">
+      </span>
+    </fieldset>
+    </form>
+    <form method="post">
+        <h1>Contate-nos</h1>
+        <fieldset id="form">
+        <fieldset id="form">
+        <legend>Dados Básicos</legend>
+        <p>
+        <label>Primeiro Nome: <input type="text" required autofocus maxlength="12" size="27"></label><br>
+      </p>
+      <p>
+        <label>Sobrenome: <input type="text" required autofocus maxlength="12" size='32'></label><br>
+      </p>
+      <p>
+        <label>E-mail: <input type="email" required placeholder='Ex: seunome@gmail.com' size='37'></label><br>
+      </p>
+      <p>
+        <label>Telefone: <input required type="number"></label>
+      </p>
+      <p>
+        <label>Idade:<input type="number" min='2' max='110' id='idade'></label>
+      </p>
+      </fieldset>
+      <fieldset id="form">
+        <legend>Mensagem</legend>
+        <textarea rows='10'></textarea>
+      </fieldset>
+      <input type="submit" value="Enviar">
+      <input type="reset" value="Cancelar">
+    </fieldset>
+      </form>
+    </div>
+    <div id="final3">
+        <center><a href="#home"><img src="imagens/home.png" width="2%" /></a></center>
+        <center>Criado e desenvolvido por Marcos Túlio</center>
+        <center>©JoJoSite 2019</center>
+    </div>
+  </body>
+</html>
